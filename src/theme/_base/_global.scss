@@ -1,0 +1,47 @@
+body.body-new {
+  $body-color: lighten(#F6F5F3, 1%);
+  //background: linear-gradient(rgba(#E1C1C1, .5), $body-color);
+  background-repeat: no-repeat;
+  background-size: 100% 50vh;
+  background-color: $body-color;
+
+  footer {
+    margin-right: $activity-feed-width;
+    margin-left: 0;
+
+    .container {
+      padding: 0;
+    }
+
+    @include breakpoint(medium) {
+      margin-right: 0;
+    }
+  }
+}
+
+.page {
+  padding-right: $activity-feed-width;
+  padding-top: ($header-height * 2) + $body-offset;
+
+  @include breakpoint(medium) {
+    padding-right: 0;
+    padding-top: ($header-height * 2) + $body-offset;
+  }
+
+  @include breakpoint(old-small) {
+    padding-top: ($header-height) + $body-offset;
+  }
+
+}
+
+iframe, img {
+  display: block;
+}
+
+.relative {
+  position: relative;
+}
+
+body.loading .slot {
+  display: none;
+}

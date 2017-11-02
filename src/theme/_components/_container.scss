@@ -1,0 +1,22 @@
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  height: inherit;
+  margin: 0 auto;
+  max-width: 1010px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row--center {
+  @extend .flex-row;
+  align-items: center;
+}

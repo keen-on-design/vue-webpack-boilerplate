@@ -1,0 +1,135 @@
+@include font-face("Roboto", "~fonts/roboto/robotoregular", 400, normal, $file-formats: ttf);
+@include font-face("Roboto", "~fonts/roboto/robotoitalic", 400, italic, $file-formats: ttf);
+@include font-face("Roboto", "~fonts/roboto/robotomedium", 500, normal, $file-formats: ttf);
+@include font-face("PtSerifCaption", "~fonts/PT-Serif-Caption/PT_Serif-Caption-Web-Regular", 400, normal, $file-formats: ttf);
+@include font-face('icomoon', "~fonts/icomoon/icomoon", normal, normal, $file-formats: eot ttf woff);
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body, input, select, textarea {
+	color: _palette(base, foreground);
+	font-family: _font(base, family);
+	font-size: $base-font-size;
+	font-weight: _font(base, weight);
+	line-height: $base-line-height;
+}
+
+
+// Hyperlinks
+a {
+	color: _palette(interact, action);
+	text-decoration: none;
+
+	&:hover {
+		color: darken(_palette(interact, action), 10%);
+	}
+}
+
+// Subscript & Superscript
+sub {
+	font-size: 0.8em;
+	position: relative;
+	top: 0.5em;
+}
+
+sup {
+	font-size: 0.8em;
+	position: relative;
+	top: -0.5em;
+}
+
+// Standalone classes
+
+h1,h2,h3,h4,h5 {
+	font-family: _font(heading, family);
+}
+
+h1 {
+	font-weight: _font(heading, weight-bold);
+	font-size: modular-scale(2);
+	margin: 0 0 $base-line-height / 2 0;
+
+	strong,b {
+		font-weight: _font(heading, weight-bold);
+	}
+
+	&.strong {
+		font-weight: _font(heading, weight-bold);
+	}
+}
+
+h2 {
+	font-weight: _font(subheading, weight-bold);
+}
+
+h3,h4,h5 {
+	font-weight: _font(subheading, weight);
+}
+
+h3,h4,h5 {
+	strong,b {
+		font-weight: _font(subheading, weight-bold);
+	}
+
+	&.strong {
+		font-weight: _font(subheading, weight-bold);
+	}
+}
+
+h2 {
+	letter-spacing: .01em;
+}
+
+h3 {
+	letter-spacing: .01em;
+}
+
+p {
+	margin: $base-line-height / 2 0;
+}
+
+// Typography helpers
+.text-middle {
+	display: flex;
+  align-items: center;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: _font(iconic, family) !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye:before {
+  content: "\e9ce";
+}
+.icon-extension:before {
+  content: "\e87b";
+}
+.icon-grid_on:before {
+  content: "\e3ec";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e313";
+}
+.icon-keyboard_arrow_left:before {
+  content: "\e314";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e315";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e316";
+}

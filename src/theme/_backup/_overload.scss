@@ -1,0 +1,3431 @@
+.breadcrumb, .authorInfo {
+  padding-left: 0!important; 
+  padding-right: 0!important; 
+  margin-left: auto; 
+  margin-right: auto; 
+  max-width: 80%;
+}
+.share-vert .ya-share2__list {
+    padding: 0!important;
+}
+
+.share-vert .ya-share2__list_direction_horizontal > .ya-share2__item {
+    display: block;
+}
+
+.ya-share2__container_size_m .ya-share2__item {
+    margin: 0!important;
+    text-align: center;
+}
+.ya-share2__container_size_m .ya-share2__icon {
+    width: 29px!important;
+    height: 29px!important;
+    margin-top: 7px;
+    box-shadow: none;
+}
+
+.ya-share2__container_size_m .ya-share2__counter {
+    clear: both;
+}
+
+.ya-share2__badge {
+    border-radius: 0!important;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.ya-share2__badge:hover {
+    width: 55px;
+    margin-left: -10px;
+}
+
+.ya-share2__counter_visible {
+    display: block!important;
+}
+
+.ya-share2__container_size_m .ya-share2__counter {
+    font-size: 11px!important;
+    line-height: 14px!important;
+    padding: 0!important;
+    position: relative;
+    margin-top: -5px;
+}
+
+.ya-share2__counter:before {
+    display: none;
+}
+.form-lead-astral {
+	font: normal 30px/36px "PT Sans", Arial, sans-serif;
+	color: #4b4b4b;
+	background: #fff;
+	padding: 0;
+	margin: 25px 0 0;
+	padding: 0 0 30px;
+	width: 100%;		
+}
+
+.form-lead-astral-inner {
+	padding: 18px 36px 24px;
+	background: #fff;
+	border: 1px #f2343b solid;
+	border-top: 4px #f2343b solid;
+	border-bottom: none;
+}
+
+.form-lead-astral-text {
+	margin: 3px 0 27px;
+}
+
+.form-lead-astral-text span {
+	color: #f2343b;
+}
+
+.form-lead-astral-logo {
+	float: right;
+	margin: 5px 0 27px 25px;
+}
+
+.form-lead-astral button.lead-button {
+	font: bold 24px/24px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+	position: relative;
+	background: #07b0b7!important;
+	background: -moz-linear-gradient(left, #f2343b 0%, #4586c1 100%)!important;
+	background: -webkit-linear-gradient(left, #f2343b 0%, #4586c1 100%)!important;
+	background: linear-gradient(to right, #f2343b 0%, #4586c1 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2343b', endColorstr='#4586c1',GradientType=1)!important;
+	behavior: url(http://www.klerk.ru/html5/css/PIE.htc);
+}
+
+.form-lead-astral button.lead-button:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: -30px;
+	left: 0;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow3.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-astral button.lead-button:hover {
+	background: #4586c1!important;
+	color: #fff!important;
+}
+
+.form-lead-astral button.lead-button:hover:before {
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow_hover3.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-astral button.lead-button:active {
+	background: #ed1c24!important;
+	color: #fff!important;
+}
+
+.form-lead-astral button.lead-button:active:before {
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow_message.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-astral-inputs {
+	display: table;
+	width: 100%;
+	zoom: 1;
+}
+
+.form-lead-astral .form-lead-inp {
+	color: #4586c1!important;
+	background: #fff;
+	width: 33%;
+	height: 46px;
+	border: 1px #c3c3c3 solid!important;
+	font: normal 20px/46px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: normal;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 5px!important;
+	outline: none!important;
+	float: left;
+}
+
+.form-lead-astral .form-lead-inp:hover {
+	border: 1px #4586c1 solid!important;
+	-moz-box-shadow: inset 0 0 0 1px #4586c1;
+    -webkit-box-shadow: inset 0 0 0 1px #4586c1;
+    box-shadow: inset 0 0 0 1px #4586c1;
+    behavior: url(http://www.klerk.ru/html5/css/PIE.htc);
+}
+
+.form-lead-astral .form-lead-inp:focus {
+	border: 1px #4586c1 solid!important;
+	outline: 1px #4586c1 solid!important;
+}
+
+.form-lead-astral ::-webkit-input-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;  
+}
+
+.form-lead-astral :-moz-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;   
+}
+
+.form-lead-astral ::-moz-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;
+}
+
+.form-lead-astral :-ms-input-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important; 
+}
+
+.form-lead-astral [placeholder]:hover::-webkit-input-placeholder {
+    color: #4586c1;
+}
+
+.form-lead-astral [placeholder]:hover:-moz-placeholder {
+    color: #4586c1;
+}
+
+.form-lead-astral [placeholder]:hover::-moz-placeholder {
+    color: #4586c1;
+}
+
+.form-lead-astral [placeholder]:hover:-ms-input-placeholder {
+    color: #4586c1;
+}
+
+.form-lead-astral [placeholder]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-astral [placeholder]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-astral [placeholder]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-astral [placeholder]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-astral .lead-message {
+	display: none;
+	font: bold 24px/24px "PT Sans", Arial, sans-serif!important;
+	text-align: center!important;	
+	padding-bottom: 30px;
+	position: relative;
+	margin: 0;
+	padding: 19px 0!important;
+	min-height: 22px;
+	z-index: 1;
+	clear: both;
+	letter-spacing: normal;
+	text-transform: none;
+	background: #ed1c24!important;
+	color: #fff!important;
+}
+
+.form-lead-astral .lead-message:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: -30px;
+	left: 0;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow_message.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.form-lead-astral {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.form-lead-astral .form-lead-inp {
+		width: 99%;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 480px) { 
+	.form-lead-astral-logo {
+		float: none;
+		margin-left: 0;
+	}
+}
+
+.form-lead-fing {
+	font: normal 24px/28px "PT Sans", Arial, sans-serif;
+	color: #5b5b5b;
+	background: #fff;
+	padding: 0;
+	margin: 25px 0;
+	width: 100%;		
+}
+
+.form-lead-fing-inner {
+	padding: 15px 32px 17px;
+	border: 4px #00acee solid;
+}
+
+.form-lead-fing-text {
+	margin: 0 0 10px;
+}
+
+.form-lead-fing-text span {
+	color: #00acee;
+}
+
+.form-lead-fing-text.font28 {
+	font-size: 28px;
+	margin: 10px 0;
+}
+
+.form-lead-fing-logo {
+	float: right;
+	margin: 5px 0 17px 35px;
+}
+
+.form-lead-fing button.lead-button {
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	background: #00acee!important;	
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+}
+
+.form-lead-fing button.lead-button:hover {
+	background: #96c843!important;
+}
+
+.form-lead-fing button.lead-button:active {
+	background: #87b53c!important;
+}
+
+.form-lead-fing .form-lead-inp {
+	color: #00acee!important;
+	background: #fff;
+	width: 100%;
+	height: 40px;
+	border: 4px #00acee solid!important;
+	font: normal 18px/44px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 10px!important;
+	outline: none!important;
+}
+
+.form-lead-fing .form-lead-inp:hover {
+	border: 4px #0092cc solid!important;
+}
+
+.form-lead-fing .form-lead-inp:focus {
+	border: 4px #87b53c solid!important;
+}
+
+.form-lead-fing .text-upper {
+	text-transform: uppercase;
+}
+
+.form-lead-fing ::-webkit-input-placeholder {
+    color: #a5a5a5;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-fing :-moz-placeholder {
+    color: #a5a5a5;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-fing ::-moz-placeholder {
+    color: #a5a5a5;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-fing :-ms-input-placeholder {
+    color: #a5a5a5;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-fing [placeholder]:focus::-webkit-input-placeholder {
+    color: #00acee;
+}
+
+.form-lead-lores [placeholder]:focus:-moz-placeholder {
+    color: #00acee;
+}
+
+.form-lead-fing [placeholder]:focus::-moz-placeholder {
+    color: #00acee;
+}
+
+.form-lead-fing [placeholder]:focus:-ms-input-placeholder {
+    color: #00acee;
+}
+
+.form-lead-fing .lead-message {
+	display: none;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 19px 0;
+	min-height: 22px;
+	background: #87b53c;
+	color: #fff;
+	clear: both;
+}
+.form-lead {
+	background: #f5f5f5;
+	padding: 10px 0 0;
+	margin: 25px 0;
+	width: 100%;	
+}
+
+.form-lead.form-lead-outsoircing {	
+	border-top: 4px #c51717 solid;
+}
+
+.form-lead.form-lead-finguru {
+	border-top: 4px #00acee solid;
+}
+
+.form-lead-logo {
+	width: 110px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.form-lead-logo img {
+	max-width: 80px;
+	text-align: center;
+}
+
+.form-lead-info {
+	float: right;	
+	width: 100%;
+	margin-left: -130px;
+}
+
+.form-lead-info-inner {
+	margin-left: 130px;
+}
+
+.form-lead-text {
+	font: normal 26px/32px "PT Sans", Arial, sans-serif;
+	color: #515252;
+	margin: 10px 0 20px;
+}
+
+.form-lead-outsoircing .form-lead-text span {
+	color: #c51717;
+}
+
+.form-lead-finguru .form-lead-text span {
+	color: #00acee;
+}
+
+.form-lead button.lead-button {
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 20px 0 0!important;
+	padding: 0!important;
+	background: #b6babc!important;
+	color: #fff!important;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+}
+
+.form-lead.form-lead-outsoircing button.lead-button:hover {
+	background: #c51717!important;
+}
+
+.form-lead.form-lead-finguru button.lead-button:hover {
+	background: #00acee!important;
+}
+
+.form-lead-inp {
+	color: #b6babc!important;
+	background: #fff;
+	width: 81%;
+	border: 1px #ebebeb solid!important;
+	font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 10px!important;
+}
+
+.text-upper {
+	text-transform: uppercase;
+}
+
+.form-lead ::-webkit-input-placeholder {
+    color: #d9d9d9;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead :-moz-placeholder {
+    color: #d9d9d9;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead ::-moz-placeholder {
+    color: #d9d9d9;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead :-ms-input-placeholder {
+    color: #d9d9d9;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead [placeholder]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-lead [placeholder]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead [placeholder]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead [placeholder]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.lead-message {
+	display: none;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 19px 0;
+	min-height: 22px;
+	background: #96c843;
+	color: #fff;
+	clear: both;
+}
+
+@media only screen and (max-width: 767px) {
+	.form-lead-inp {
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.form-lead-logo, .form-lead-info, .form-lead-info-inner {
+		width: 100%;
+		float: none;
+		text-align: left;
+		margin: 0;
+	}
+
+	.form-lead-logo img {
+		margin-left: 5%;
+	}
+
+	.form-lead-info-inner {
+		width: 90%;
+		float: none;
+		text-align: left;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.form-lead-inp {
+		width: 100%;
+	}
+}
+.form-lead-intercomp {
+	font: normal 32px/38px "PT Sans", Arial, sans-serif;
+	color: #404040;
+	background: #fff;
+	padding: 0;
+	margin: 25px 0;
+	width: 100%;		
+}
+
+.form-lead-intercomp-inner {
+	padding: 18px 32px 17px;
+	border: 4px #007dc6 solid;
+}
+
+.form-lead-intercomp-text {
+	margin: 1px 0 15px;
+}
+
+.form-lead-intercomp-text span {
+	color: #007dc6;
+}
+
+.form-lead-intercomp-logo {
+	float: right;
+	margin: 8px 0 17px 25px;
+}
+
+.form-lead-intercomp button.lead-button {
+	font: bold 20px/22px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	background: #007dc6!important;	
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+}
+
+.form-lead-intercomp button.lead-button:hover {
+	background: #038cdc!important;
+}
+
+.form-lead-intercomp button.lead-button:active {
+	background: #005387!important;
+}
+
+.form-lead-intercomp .form-lead-inp {
+	color: #007dc6!important;
+	background: #fff;
+	width: 99%;
+	height: 40px;
+	border: 4px #bfbfbf solid!important;
+	font: bold 18px/44px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 10px!important;
+	outline: none!important;
+}
+
+.form-lead-intercomp .form-lead-inp:hover {
+	border: 4px #a7a9ac solid!important;
+}
+
+.form-lead-intercomp .form-lead-inp:focus {
+	border: 4px #007dc6 solid!important;
+}
+
+.form-lead-intercomp .text-upper {
+	text-transform: uppercase;
+}
+
+.form-lead-intercomp ::-webkit-input-placeholder {
+    color: #c0c0c0;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-intercomp :-moz-placeholder {
+    color: #c0c0c0;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-intercomp ::-moz-placeholder {
+    color: #c0c0c0;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-intercomp :-ms-input-placeholder {
+    color: #c0c0c0;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-intercomp [placeholder]:hover::-webkit-input-placeholder {
+    color: #a7a9ac;
+}
+
+.form-lead-intercomp [placeholder]:hover:-moz-placeholder {
+    color: #a7a9ac;
+}
+
+.form-lead-intercomp [placeholder]:hover::-moz-placeholder {
+    color: #a7a9ac;
+}
+
+.form-lead-intercomp [placeholder]:hover:-ms-input-placeholder {
+    color: #a7a9ac;
+}
+
+.form-lead-intercomp [placeholder]:focus::-webkit-input-placeholder {
+    color: #007dc6;
+}
+
+.form-lead-intercomp [placeholder]:focus:-moz-placeholder {
+    color: #007dc6;
+}
+
+.form-lead-intercomp [placeholder]:focus::-moz-placeholder {
+    color: #007dc6;
+}
+
+.form-lead-intercomp [placeholder]:focus:-ms-input-placeholder {
+    color: #007dc6;
+}
+
+.form-lead-intercomp .lead-message {
+	display: none;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 19px 0;
+	min-height: 22px;
+	background: #005387;
+	color: #fff;
+	clear: both;
+}
+.form-lead-intercomp-2 {
+	font: normal 30px/34px "PT Sans", Arial, sans-serif;
+	color: #4b4b4b;
+	background: #fff;
+	padding: 0;
+	margin: 25px 0 0;
+	padding: 0 0 30px;
+	width: 100%;		
+}
+
+.form-lead-intercomp-2-inner {
+	padding: 19px 36px 24px;
+	background: #fff;
+	border: 1px #c9dae4 solid;
+	border-bottom: none;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-topright: 12px;
+    -webkit-border-top-left-radius: 12px;
+    -webkit-border-top-right-radius: 12px;
+}
+
+.form-lead-intercomp-2-text {
+	margin: 3px 0 17px;
+}
+
+.form-lead-intercomp-2-text span {
+	font-size: 21px;
+}
+
+.form-lead-intercomp-2-logo {
+	float: right;
+	margin: 4px 0 20px 25px;
+}
+
+.form-lead-intercomp-2 button.lead-button {
+	font: bold 24px/24px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	-moz-border-radius-bottomright: 12px;
+    -webkit-border-bottom-left-radius: 12px;
+    -webkit-border-bottom-right-radius: 12px;
+	text-align: center;
+	outline: none;
+	position: relative;
+	background: #007dc6!important;
+}
+
+.form-lead-intercomp-2 button.lead-button:hover {
+	background: #058cda!important;
+	color: #fff!important;
+}
+
+.form-lead-intercomp-2 button.lead-button:active {
+	background: #ed1c24!important;
+	color: #fff!important;
+}
+
+.form-lead-intercomp-2-inputs {
+	display: table;
+	width: 100%;
+	zoom: 1;
+}
+
+.form-lead-intercomp-2 .form-lead-inp {
+	color: #4b4b4b!important;
+	background: #fff;
+	width: 49.2%;
+	height: 46px;
+	border: 1px #c9dae4 solid!important;
+	font: normal 20px/46px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: normal;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 5px!important;
+	outline: none!important;
+	float: left;
+}
+
+.form-lead-intercomp-2 .form-lead-inp:hover {
+	border: 1px #007dc6 solid!important;
+	-moz-box-shadow: inset 0 0 0 1px #007dc6;
+    -webkit-box-shadow: inset 0 0 0 1px #007dc6;
+    box-shadow: inset 0 0 0 1px #007dc6;
+    behavior: url(http://www.klerk.ru/html5/css/PIE.htc);
+}
+
+.form-lead-intercomp-2 .form-lead-inp:focus {
+	border: 1px #007dc6 solid!important;
+	outline: 1px #007dc6 solid!important;
+}
+
+.form-lead-intercomp-2 ::-webkit-input-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;  
+}
+
+.form-lead-intercomp-2 :-moz-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;   
+}
+
+.form-lead-intercomp-2 ::-moz-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;
+}
+
+.form-lead-intercomp-2 :-ms-input-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important; 
+}
+
+.form-lead-intercomp-2 [placeholder]:hover::-webkit-input-placeholder {
+    color: #4b4b4b;
+}
+
+.form-lead-intercomp-2 [placeholder]:hover:-moz-placeholder {
+    color: #4b4b4b;
+}
+
+.form-lead-intercomp-2 [placeholder]:hover::-moz-placeholder {
+    color: #4b4b4b;
+}
+
+.form-lead-intercomp-2 [placeholder]:hover:-ms-input-placeholder {
+    color: #4b4b4b;
+}
+
+.form-lead-intercomp-2 [placeholder]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-intercomp-2 [placeholder]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-intercomp-2 [placeholder]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-intercomp-2 [placeholder]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-intercomp-2 .lead-message {
+	display: none;
+	font: bold 24px/24px "PT Sans", Arial, sans-serif!important;
+	text-align: center!important;	
+	padding-bottom: 30px;
+	position: relative;
+	margin: 0;
+	padding: 19px 0!important;
+	min-height: 22px;
+	z-index: 1;
+	clear: both;
+	letter-spacing: normal;
+	text-transform: none;
+	background: #ed1c24!important;
+	color: #fff!important;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+	.form-lead-intercomp-2 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.form-lead-intercomp-2 .form-lead-inp {
+		width: 99%;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 480px) { 
+	.form-lead-intercomp-2-logo {
+		float: none;
+		margin-left: 0;
+	}
+}
+.form-lead-klerk-1 {
+	font: normal 42px/42px "PT Sans", Arial, sans-serif;
+	color: #fff;
+	background: #ccc;
+	padding: 0;
+	margin: 25px 0;
+	width: 100%;		
+}
+
+.form-lead-klerk-1-inner {
+	padding: 18px 36px 17px;
+	border-top: 8px #263a58 solid;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/bg_klerk_01.jpg) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-klerk-1-text {
+	margin: 17px 0 28px;
+}
+
+.form-lead-klerk-1 button.lead-button {
+	font: bold 20px/22px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	background: #263a58!important;	
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+}
+
+.form-lead-klerk-1 button.lead-button:hover {
+	background: #172335!important;
+	color: #263a58!important;
+}
+
+.form-lead-klerk-1 button.lead-button:active {
+	background: #1e2e46!important;
+	color: #fff!important;
+}
+
+.form-lead-klerk-1 .form-lead-inp {
+	color: #fff!important;
+	background: rgba(19,16,15,0.6);
+	width: 99%;
+	height: 44px;
+	border: 2px #322f37 solid!important;
+	font: bold 18px/44px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 5px!important;
+	outline: none!important;
+	behavior: url(/html5/css/PIE.htc);
+}
+
+.form-lead-klerk-1 .form-lead-inp:hover {
+	border: 2px #395989 solid!important;
+}
+
+.form-lead-klerk-1 .form-lead-inp:focus {
+	border: 2px #395989 solid!important;
+}
+
+.form-lead-klerk-1 .text-upper {
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-1 ::-webkit-input-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-1 :-moz-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-1 ::-moz-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-1 :-ms-input-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-1 [placeholder]:hover::-webkit-input-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-1 [placeholder]:hover:-moz-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-1 [placeholder]:hover::-moz-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-1 [placeholder]:hover:-ms-input-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-1 [placeholder]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-1 [placeholder]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-1 [placeholder]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-1 [placeholder]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-1 .lead-message {
+	display: none;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 19px 0;
+	min-height: 22px;
+	background: #1e2e46;
+	color: #fff;
+	clear: both;
+}
+.form-lead-klerk-2 {
+	font: normal 42px/42px "PT Sans", Arial, sans-serif;
+	color: #fff;
+	background: #ccc;
+	padding: 0;
+	margin: 25px 0;
+	width: 100%;		
+}
+
+.form-lead-klerk-2-inner {
+	padding: 18px 36px 17px;
+	border-top: 8px #780126 solid;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/bg_klerk_02.jpg) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-klerk-2-text {
+	margin: 17px 0 28px;
+}
+
+.form-lead-klerk-2 button.lead-button {
+	font: bold 20px/22px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	background: #780126!important;	
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+}
+
+.form-lead-klerk-2 button.lead-button:hover {
+	background: #480117!important;
+	color: #780126!important;
+}
+
+.form-lead-klerk-2 button.lead-button:active {
+	background: #60011e!important;
+	color: #fff!important;
+}
+
+.form-lead-klerk-2 .form-lead-inp {
+	color: #fff!important;
+	background: rgba(19,16,15,0.6);
+	width: 99%;
+	height: 44px;
+	border: 2px #c33f26 solid!important;
+	font: bold 18px/44px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 5px!important;
+	outline: none!important;
+	behavior: url(/html5/css/PIE.htc);
+}
+
+.form-lead-klerk-2 .form-lead-inp:hover {
+	border: 2px #ff4c33 solid!important;
+}
+
+.form-lead-klerk-2 .form-lead-inp:focus {
+	border: 2px #ff4c33 solid!important;
+}
+
+.form-lead-klerk-2 .text-upper {
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-2 ::-webkit-input-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-2 :-moz-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-2 ::-moz-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-2 :-ms-input-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-2 [placeholder]:hover::-webkit-input-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-2 [placeholder]:hover:-moz-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-2 [placeholder]:hover::-moz-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-2 [placeholder]:hover:-ms-input-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-2 [placeholder]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-2 [placeholder]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-2 [placeholder]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-2 [placeholder]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-2 .lead-message {
+	display: none;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 19px 0;
+	min-height: 22px;
+	background: #60011e;
+	color: #fff;
+	clear: both;
+}
+.form-lead-klerk-3 {
+	font: normal 36px/38px "PT Sans", Arial, sans-serif;
+	color: #fff;
+	background: #ccc;
+	padding: 0;
+	margin: 25px 0;
+	width: 100%;		
+}
+
+.form-lead-klerk-3-inner {
+	padding: 18px 36px 17px;
+	border-top: 8px #dd0f4e solid;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/bg_klerk_03.jpg) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-klerk-3-text {
+	margin: 19px 0 36px;
+}
+
+.form-lead-klerk-3 button.lead-button {
+	font: bold 20px/22px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	background: #dd0f4e!important;	
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+}
+
+.form-lead-klerk-3 button.lead-button:hover {
+	background: #85092f!important;
+	color: #dd0f4e!important;
+}
+
+.form-lead-klerk-3 button.lead-button:active {
+	background: #85092f!important;
+	color: #fff!important;
+}
+
+.form-lead-klerk-3 .form-lead-inp {
+	color: #fff!important;
+	background: rgba(19,16,15,0.6);
+	width: 99%;
+	height: 44px;
+	border: 2px #322f37 solid!important;
+	font: bold 18px/44px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 5px!important;
+	outline: none!important;
+	behavior: url(/html5/css/PIE.htc);
+}
+
+.form-lead-klerk-3 .form-lead-inp:hover {
+	border: 2px #dd0f4e solid!important;
+}
+
+.form-lead-klerk-3 .form-lead-inp:focus {
+	border: 2px #dd0f4e solid!important;
+}
+
+.form-lead-klerk-3 .text-upper {
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-3 ::-webkit-input-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-3 :-moz-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-3 ::-moz-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-3 :-ms-input-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-3 [placeholder]:hover::-webkit-input-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-3 [placeholder]:hover:-moz-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-3 [placeholder]:hover::-moz-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-3 [placeholder]:hover:-ms-input-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-3 [placeholder]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-3 [placeholder]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-3 [placeholder]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-3 [placeholder]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-3 .lead-message {
+	display: none;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 19px 0;
+	min-height: 22px;
+	background: #85092f;
+	color: #fff;
+	clear: both;
+}
+.form-lead-klerk-4 {
+	font: normal 36px/38px "PT Sans", Arial, sans-serif;
+	color: #fff;
+	background: #ccc;
+	padding: 0;
+	margin: 25px 0;
+	width: 100%;		
+}
+
+.form-lead-klerk-4-inner {
+	padding: 18px 36px 17px;
+	border-top: 8px #36ab6a solid;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/bg_klerk_04.jpg) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-klerk-4-text {
+	margin: 1px 0 18px;
+}
+
+.form-lead-klerk-4 button.lead-button {
+	font: bold 20px/22px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	background: #36ab6a!important;	
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+}
+
+.form-lead-klerk-4 button.lead-button:hover {
+	background: #206740!important;
+	color: #36ab6a!important;
+}
+
+.form-lead-klerk-4 button.lead-button:active {
+	background: #2b8955!important;
+	color: #fff!important;
+}
+
+.form-lead-klerk-4 .form-lead-inp {
+	color: #fff!important;
+	background: rgba(19,16,15,0.6);
+	width: 99%;
+	height: 44px;
+	border: 2px #322f37 solid!important;
+	font: bold 18px/44px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 5px!important;
+	outline: none!important;
+	behavior: url(/html5/css/PIE.htc);
+}
+
+.form-lead-klerk-4 .form-lead-inp:hover {
+	border: 2px #36ab6a solid!important;
+}
+
+.form-lead-klerk-4 .form-lead-inp:focus {
+	border: 2px #36ab6a solid!important;
+}
+
+.form-lead-klerk-4 .text-upper {
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-4 ::-webkit-input-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-4 :-moz-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-4 ::-moz-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-4 :-ms-input-placeholder {
+    color: #ccc;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-klerk-4 [placeholder]:hover::-webkit-input-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-4 [placeholder]:hover:-moz-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-4 [placeholder]:hover::-moz-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-4 [placeholder]:hover:-ms-input-placeholder {
+    color: #999;
+}
+
+.form-lead-klerk-4 [placeholder]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-4 [placeholder]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-4 [placeholder]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-4 [placeholder]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-klerk-4 .lead-message {
+	display: none;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 19px 0;
+	min-height: 22px;
+	background: #2b8955;
+	color: #fff;
+	clear: both;
+}
+.form-lead-lores {
+	font: normal 34px/40px "PT Sans", Arial, sans-serif;
+	color: #5b5b5b;
+	background: #fff;
+	padding: 0;
+	margin: 25px 0;
+	width: 100%;		
+}
+
+.form-lead-lores-inner {
+	padding: 18px 32px 17px;
+	border: 4px #74c4c4 solid;
+}
+
+.form-lead-lores-text {
+	margin: 0 0 10px;
+}
+
+.form-lead-lores .mt18 {
+	margin-top: 18px;
+}
+
+.form-lead-lores-text span {
+	color: #ed6e1e;
+}
+
+.form-lead-lores-logo {
+	float: right;
+	margin: 8px 0 27px 25px;
+}
+
+.form-lead-lores button.lead-button {
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	background: #74c4c4!important;	
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+}
+
+.form-lead-lores button.lead-button:hover {
+	background: #ed6e1e!important;
+}
+
+.form-lead-lores button.lead-button:active {
+	background: #de671d!important;
+}
+
+.form-lead-lores .form-lead-inp {
+	color: #07b0b7!important;
+	background: #fff;
+	width: 100%;
+	height: 40px;
+	border: 4px #74c4c4 solid!important;
+	font: normal 18px/44px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 10px!important;
+	outline: none!important;
+}
+
+.form-lead-lores .form-lead-inp:hover {
+	border: 4px #05afb6 solid!important;
+}
+
+.form-lead-lores .form-lead-inp:focus {
+	border: 4px #ed6e1e solid!important;
+}
+
+.form-lead-lores .text-upper {
+	text-transform: uppercase;
+}
+
+.form-lead-lores ::-webkit-input-placeholder {
+    color: #74c4c4;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-lores :-moz-placeholder {
+    color: #74c4c4;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-lores ::-moz-placeholder {
+    color: #74c4c4;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-lores :-ms-input-placeholder {
+    color: #74c4c4;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-lores [placeholder]:focus::-webkit-input-placeholder {
+    color: #ed6e1e;
+}
+
+.form-lead-lores [placeholder]:focus:-moz-placeholder {
+    color: #ed6e1e;
+}
+
+.form-lead-lores [placeholder]:focus::-moz-placeholder {
+    color: #ed6e1e;
+}
+
+.form-lead-lores [placeholder]:focus:-ms-input-placeholder {
+    color: #ed6e1e;
+}
+
+.form-lead-lores .lead-message {
+	display: none;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 19px 0;
+	min-height: 22px;
+	background: #de671d;
+	color: #fff;
+	clear: both;
+}
+.form-lead-lores-6 {
+	font: normal 30px/36px "PT Sans", Arial, sans-serif;
+	color: #4b4b4b;
+	background: #fff;
+	padding: 0;
+	margin: 25px 0 0;
+	padding: 0 0 30px;
+	width: 100%;		
+}
+
+.form-lead-lores-6-inner {
+	padding: 18px 36px 17px;
+	border-top: 8px #263a58 solid;
+	background: #fff;
+	border: 1px #74c4c4 solid;
+	border-bottom: none;
+}
+
+.form-lead-lores-6-text {
+	margin: 3px 0 27px;
+}
+
+.form-lead-lores-6-text span {
+	color: #ed6e1e;
+}
+
+.form-lead-lores-6-logo {
+	float: right;
+	margin: 8px 0 27px 25px;
+}
+
+.form-lead-lores-6 button.lead-button {
+	font: bold 24px/24px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+	position: relative;
+	background: #07b0b7!important;
+	background: -moz-linear-gradient(left, #ed6e1e 0%, #07b0b7 100%)!important;
+	background: -webkit-linear-gradient(left, #ed6e1e 0%, #07b0b7 100%)!important;
+	background: linear-gradient(to right, #ed6e1e 0%, #07b0b7 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6e1e', endColorstr='#07b0b7',GradientType=1)!important;
+	behavior: url(http://www.klerk.ru/html5/css/PIE.htc);
+}
+
+.form-lead-lores-6 button.lead-button:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: -30px;
+	left: 0;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-lores-6 button.lead-button:hover {
+	background: #07b0b7!important;
+	color: #fff!important;
+}
+
+.form-lead-lores-6 button.lead-button:hover:before {
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow_hover.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-lores-6 button.lead-button:active {
+	background: #ed1c24!important;
+	color: #fff!important;
+}
+
+.form-lead-lores-6 button.lead-button:active:before {
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow_message.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-lores-6-inputs {
+	display: table;
+	width: 100%;
+	zoom: 1;
+}
+
+.form-lead-lores-6 .form-lead-inp {
+	color: #07b0b7!important;
+	background: #fff;
+	width: 49%;
+	height: 46px;
+	border: 1px #74c4c4 solid!important;
+	font: normal 20px/46px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: normal;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 5px!important;
+	outline: none!important;
+	float: left;
+}
+
+.form-lead-lores-6 .form-lead-inp:hover {
+	border: 1px #07b0b7 solid!important;
+	-moz-box-shadow: inset 0 0 0 1px #07b0b7;
+    -webkit-box-shadow: inset 0 0 0 1px #07b0b7;
+    box-shadow: inset 0 0 0 1px #07b0b7;
+    behavior: url(http://www.klerk.ru/html5/css/PIE.htc);
+}
+
+.form-lead-lores-6 .form-lead-inp:focus {
+	border: 1px #07b0b7 solid!important;
+	outline: 1px #07b0b7 solid!important;
+}
+
+.form-lead-lores-6 ::-webkit-input-placeholder {
+    color: #74c4c4;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;  
+}
+
+.form-lead-lores-6 :-moz-placeholder {
+    color: #74c4c4;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;   
+}
+
+.form-lead-lores-6 ::-moz-placeholder {
+    color: #74c4c4;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;
+}
+
+.form-lead-lores-6 :-ms-input-placeholder {
+    color: #74c4c4;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important; 
+}
+
+.form-lead-lores-6 [placeholder]:hover::-webkit-input-placeholder {
+    color: #07b0b7;
+}
+
+.form-lead-lores-6 [placeholder]:hover:-moz-placeholder {
+    color: #07b0b7;
+}
+
+.form-lead-lores-6 [placeholder]:hover::-moz-placeholder {
+    color: #07b0b7;
+}
+
+.form-lead-lores-6 [placeholder]:hover:-ms-input-placeholder {
+    color: #07b0b7;
+}
+
+.form-lead-lores-6 [placeholder]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-lores-6 [placeholder]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-lores-6 [placeholder]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-lores-6 [placeholder]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-lores-6-top {
+	font: normal 24px/26px "PT Sans", Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+	background: #382010 url(http://www.klerk.ru/html5/i/document_formlead/bg_lores.jpg) center top no-repeat;
+	background-size: 100% 100%;
+	padding: 16px 18px 18px;
+}
+
+.form-lead-lores-6-top a {
+	color: #fff!important;
+	text-decoration: underline!important;
+	position: relative;
+}
+
+.form-lead-lores-6-top a:after {
+	content: "";
+	position: relative;
+	display: -moz-inline-box;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+	width: 11px;
+	height: 11px;
+	margin: 0 0 0 7px;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/arrow.png) left top no-repeat;
+}
+
+.form-lead-lores-6-top:hover {
+	background: #382010 url(http://www.klerk.ru/html5/i/document_formlead/bg_lores_hover.jpg) center top no-repeat;
+	background-size: 100% 100%;
+	color: #07b0b7;
+}
+
+.form-lead-lores-6-top:hover a {
+	color: #07b0b7!important;
+}
+
+.form-lead-lores-6-top:hover a:after {
+	content: "";
+	position: relative;
+	display: -moz-inline-box;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+	width: 11px;
+	height: 11px;
+	margin: 0 0 0 7px;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/arrow_hover.png) left top no-repeat;
+}
+
+.form-lead-lores-6 .lead-message {
+	display: none;
+	font: bold 24px/24px "PT Sans", Arial, sans-serif!important;
+	text-align: center!important;	
+	padding-bottom: 30px;
+	position: relative;
+	margin: 0;
+	padding: 19px 0!important;
+	min-height: 22px;
+	z-index: 1;
+	clear: both;
+	letter-spacing: normal;
+	text-transform: none;
+	background: #ed1c24!important;
+	color: #fff!important;
+}
+
+.form-lead-lores-6 .lead-message:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: -30px;
+	left: 0;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow_message.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.form-lead-lores-6 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.form-lead-lores-6 .form-lead-inp {
+		width: 99%;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 480px) { 
+	.form-lead-lores-6-logo {
+		float: none;
+		margin-left: 0;
+	}
+}
+.form-lead-lores-7 {
+	font: normal 30px/34px "PT Sans", Arial, sans-serif;
+	color: #4b4b4b;
+	background: #fff;
+	padding: 0;
+	margin: 25px 0 0;
+	padding: 0 0 30px;
+	width: 100%;		
+}
+
+.form-lead-lores-7-inner {
+	padding: 18px 36px 17px;
+	background: #fff;
+	border-left: 1px #c3c3c3 solid;
+	border-right: 1px #c3c3c3 solid;
+}
+
+.form-lead-lores-7-text {
+	margin: 3px 0 27px;
+}
+
+.form-lead-lores-7-text span {
+	font-size: 21px;
+}
+
+.form-lead-lores-7-logo {
+	float: right;
+	margin: 0 10px 27px 25px;
+}
+
+.form-lead-lores-7 button.lead-button {
+	font: bold 24px/24px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+	position: relative;
+	background: #d33188!important;
+	background: -moz-linear-gradient(left, #c00000 0%, #d33188 100%)!important;
+	background: -webkit-linear-gradient(left, #c00000 0%, #d33188 100%)!important;
+	background: linear-gradient(to right, #c00000 0%, #d33188 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c00000', endColorstr='#d33188',GradientType=1)!important;
+	behavior: url(http://www.klerk.ru/html5/css/PIE.htc);
+}
+
+.form-lead-lores-7 button.lead-button:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: -30px;
+	left: 0;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow2.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-lores-7 button.lead-button:hover {
+	background: #d33188!important;
+	color: #fff!important;
+}
+
+.form-lead-lores-7 button.lead-button:hover:before {
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow_hover2.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-lores-7 button.lead-button:active {
+	background: #ed1c24!important;
+	color: #fff!important;
+}
+
+.form-lead-lores-7 button.lead-button:active:before {
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow_message.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.form-lead-lores-7-inputs {
+	display: table;
+	width: 100%;
+	zoom: 1;
+}
+
+.form-lead-lores-7 .form-lead-inp {
+	color: #d33188!important;
+	background: #fff;
+	width: 49%;
+	height: 46px;
+	border: 1px #c3c3c3 solid!important;
+	font: normal 20px/46px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: normal;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 5px!important;
+	outline: none!important;
+	float: left;
+}
+
+.form-lead-lores-7 .form-lead-inp:hover {
+	border: 1px #d33188 solid!important;
+	-moz-box-shadow: inset 0 0 0 1px #d33188;
+    -webkit-box-shadow: inset 0 0 0 1px #d33188;
+    box-shadow: inset 0 0 0 1px #d33188;
+    behavior: url(http://www.klerk.ru/html5/css/PIE.htc);
+}
+
+.form-lead-lores-7 .form-lead-inp:focus {
+	border: 1px #d33188 solid!important;
+	outline: 1px #d33188 solid!important;
+}
+
+.form-lead-lores-7 ::-webkit-input-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;  
+}
+
+.form-lead-lores-7 :-moz-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;   
+}
+
+.form-lead-lores-7 ::-moz-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important;
+}
+
+.form-lead-lores-7 :-ms-input-placeholder {
+    color: #c3c3c3;
+    font: normal 20px/46px "PT Sans", Arial, sans-serif!important; 
+}
+
+.form-lead-lores-7 [placeholder]:hover::-webkit-input-placeholder {
+    color: #d33188;
+}
+
+.form-lead-lores-7 [placeholder]:hover:-moz-placeholder {
+    color: #d33188;
+}
+
+.form-lead-lores-7 [placeholder]:hover::-moz-placeholder {
+    color: #d33188;
+}
+
+.form-lead-lores-7 [placeholder]:hover:-ms-input-placeholder {
+    color: #d33188;
+}
+
+.form-lead-lores-7 [placeholder]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-lores-7 [placeholder]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-lores-7 [placeholder]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead-lores-7 [placeholder]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-lead-lores-7-top {
+	font: normal 24px/26px "PT Sans", Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+	background: #842424 url(http://www.klerk.ru/html5/i/document_formlead/bg_lores2.jpg) center top no-repeat;
+	background-size: 100% 100%;
+	padding: 8px 18px 12px;
+}
+
+.form-lead-lores-7-top div {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.form-lead-lores-7-top a {
+	color: #fff!important;
+	text-decoration: underline!important;
+	position: relative;
+}
+
+.form-lead-lores-7-top a:after {
+	content: "";
+	position: relative;
+	display: -moz-inline-box;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+	width: 11px;
+	height: 11px;
+	margin: 0 0 0 7px;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/arrow.png) left top no-repeat;
+}
+
+.form-lead-lores-7-top:hover {
+	background: #382010 url(http://www.klerk.ru/html5/i/document_formlead/bg_lores_hover2.jpg) center top no-repeat;
+	background-size: 100% 100%;
+	color: #07b0b7;
+}
+
+.form-lead-lores-7-top:hover a {
+	color: #07b0b7!important;
+}
+
+.form-lead-lores-7-top:hover a:after {
+	content: "";
+	position: relative;
+	display: -moz-inline-box;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+	width: 11px;
+	height: 11px;
+	margin: 0 0 0 7px;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/arrow_hover.png) left top no-repeat;
+}
+
+.form-lead-lores-7 .lead-message {
+	display: none;
+	font: bold 24px/24px "PT Sans", Arial, sans-serif!important;
+	text-align: center!important;	
+	padding-bottom: 30px;
+	position: relative;
+	margin: 0;
+	padding: 19px 0!important;
+	min-height: 22px;
+	z-index: 1;
+	clear: both;
+	letter-spacing: normal;
+	text-transform: none;
+	background: #ed1c24!important;
+	color: #fff!important;
+}
+
+.form-lead-lores-7 .lead-message:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: -30px;
+	left: 0;
+	background: url(http://www.klerk.ru/html5/i/document_formlead/shadow_message.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.form-lead-lores-7 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.form-lead-lores-7 .form-lead-inp {
+		width: 99%;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 480px) { 
+	.form-lead-lores-7-logo {
+		float: none;
+		margin-left: 0;
+	}
+}
+.form-mystock {
+	font: normal 16px/22px "PT Sans", Arial, sans-serif;
+	color: #8a9442;	
+	zoom: 1;
+    word-spacing: -0.7em;
+    width: 100%;
+    margin: 25px 0;
+	background: #f3f9cb;
+	-webkit-box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1) inset;
+	behavior: url(http://www.klerk.ru/html5/css/PIE.htc);
+}
+
+.form-mystock-left , .form-mystock-right {
+	display: -moz-inline-box;
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+	word-spacing: normal;
+	vertical-align: top;
+ }
+    
+.form-mystock-left {
+	width: 45%;
+}
+
+.form-mystock-right {
+	width: 55%;
+}
+
+.form-mystock-inner {
+	padding: 30px;
+}
+
+.form-mystock .mystock-title {
+	font-size: 24px;
+	line-height: 26px;
+	color: #333;
+	margin: 0 0 40px;
+}
+
+.form-mystock .mk-list li {
+	display: block;
+	margin-bottom: 40px;
+	padding-left: 60px;
+	position: relative;
+}
+
+.form-mystock .mk-list li:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.form-mystock .mk-list li.mk-sales:before {
+	content: url("http://www.klerk.ru/html5/i/document_formlead/sales.png");
+}
+
+.form-mystock .mk-list li.mk-crm:before {
+	content: url("http://www.klerk.ru/html5/i/document_formlead/crm.png");
+}
+
+.form-mystock .mk-list li.mk-control:before {
+	content: url("http://www.klerk.ru/html5/i/document_formlead/control.png");
+}
+
+.form-mystock .mk-list li.mk-dot:before {
+	content: url("http://www.klerk.ru/html5/i/document_formlead/dot.png");
+}
+
+.form-mystock .mk-list li.mk-record:before {
+	content: url("http://www.klerk.ru/html5/i/document_formlead/record.png");
+}
+
+.form-mystock .mk-form {
+	padding: 35px;
+	border: 3px solid #d3dd8e;
+	border-radius: 6px;
+}
+
+.form-mystock .form-control {
+    font: normal 18px/45px "PT Sans", Arial, sans-serif;
+  	display: block;
+  	width: 100%;
+  	height: 45px;
+  	padding: 0;
+  	color: #555;
+  	text-indent: 5px;
+  	background-color: #fff;
+  	background-image: none;
+  	border: 0;
+  	border-radius: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	behavior: url(http://www.klerk.ru/html5/css/PIE.htc);
+}
+
+.form-mystock .form-control:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.form-mystock .form-control::-moz-placeholder {
+	color: #999;
+	opacity: 1;
+}
+
+.form-mystock .form-control:-ms-input-placeholder {
+  	color: #999;
+}
+
+.form-mystock .form-control::-webkit-input-placeholder {
+  	color: #999;
+}
+
+.form-mystock label {
+    font: bold 18px/22px "PT Sans", Arial, sans-serif;
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	color: #333;
+}
+
+.form-mystock .mk-form .mk-error {
+	color: red;
+	font-weight: bold;
+}
+
+.form-mystock .mk-form .mk-divider {
+	border-top: 2px solid #d3dd8e;
+	margin: 20px 0;
+}
+
+.form-mystock .mk-btn {
+	font: normal 22px/24px "PT Sans", Arial, sans-serif;
+	z-index: 2;
+	margin: 35px 0 18px;
+	padding: 22px 10px;
+	width: 100%;
+	border-radius: 12px;
+	border: 2px solid #d8ed78;
+	color: #fff;
+	text-shadow: 0 -1px 1px #000;
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-ms-transition: all 200ms;
+	-o-transition: all 200ms;
+	transition: all 200ms;
+	background: #abd418;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #abd418 0%, #73a504 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #abd418), color-stop(100%, #73a504));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #abd418 0%, #73a504 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #abd418 0%, #73a504 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #abd418 0%, #73a504 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #abd418 0%, #73a504 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#abd418', endColorstr='#73a504', GradientType=0);
+	/* IE6-9 */
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	outline: none !important;
+}
+
+.form-mystock .mk-btn:active, .form-mystock .mk-btn:focus {
+	border-color: #f2f9d2;
+	background: #abd418;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #abd418 0%, #73a504 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #abd418), color-stop(100%, #73a504));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #abd418 0%, #73a504 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #abd418 0%, #73a504 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #abd418 0%, #73a504 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #abd418 0%, #73a504 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#abd418', endColorstr='#73a504', GradientType=0);
+	/* IE6-9 */
+}
+
+.form-mystock .mk-btn:hover {
+  	border-color: #e5f3a5;
+}
+
+.form-mystock .mk-error {
+	display: none;
+}
+
+.form-mystock .lead-message {
+	display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+	.form-mystock-left, .form-mystock-right {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.form-mystock-inner {
+		padding: 30px 10px 20px 10px;
+	}
+
+	.form-mystock .mk-btn {
+		font-size: 18px;
+	}
+
+	.form-mystock .mk-form {
+		padding: 30px 10px;
+	}
+}
+.form-lead {
+	background: #f5f5f5;
+	padding: 10px 0 0;
+	margin: 25px 0;
+	width: 100%;	
+}
+
+.form-lead.form-lead-outsoircing {	
+	border-top: 4px #c51717 solid;
+}
+
+.form-lead.form-lead-finguru {
+	border-top: 4px #00acee solid;
+}
+
+.form-lead-logo {
+	width: 110px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.form-lead-logo img {
+	max-width: 80px;
+	text-align: center;
+}
+
+.form-lead-info {
+	float: right;	
+	width: 100%;
+	margin-left: -130px;
+}
+
+.form-lead-info-inner {
+	margin-left: 130px;
+}
+
+.form-lead-text {
+	font: normal 26px/32px "PT Sans", Arial, sans-serif;
+	color: #515252;
+	margin: 10px 0 20px;
+}
+
+.form-lead-outsoircing .form-lead-text span {
+	color: #c51717;
+}
+
+.form-lead-finguru .form-lead-text span {
+	color: #00acee;
+}
+
+.form-lead button.lead-button {
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 20px 0 0!important;
+	padding: 0!important;
+	background: #b6babc!important;
+	color: #fff!important;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+}
+
+.form-lead.form-lead-outsoircing button.lead-button:hover {
+	background: #c51717!important;
+}
+
+.form-lead.form-lead-finguru button.lead-button:hover {
+	background: #00acee!important;
+}
+
+.form-lead-inp {
+	color: #b6babc!important;
+	background: #fff;
+	width: 81%;
+	border: 1px #ebebeb solid!important;
+	font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 10px!important;
+}
+
+.text-upper {
+	text-transform: uppercase;
+}
+
+.form-lead ::-webkit-input-placeholder {
+    color: #d9d9d9;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead :-moz-placeholder {
+    color: #d9d9d9;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead ::-moz-placeholder {
+    color: #d9d9d9;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead :-ms-input-placeholder {
+    color: #d9d9d9;
+    font: normal 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead [placeholder]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-lead [placeholder]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead [placeholder]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.form-lead [placeholder]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.lead-message {
+	display: none;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 19px 0;
+	min-height: 22px;
+	background: #96c843;
+	color: #fff;
+	clear: both;
+}
+
+@media only screen and (max-width: 767px) {
+	.form-lead-inp {
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.form-lead-logo, .form-lead-info, .form-lead-info-inner {
+		width: 100%;
+		float: none;
+		text-align: left;
+		margin: 0;
+	}
+
+	.form-lead-logo img {
+		margin-left: 5%;
+	}
+
+	.form-lead-info-inner {
+		width: 90%;
+		float: none;
+		text-align: left;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.form-lead-inp {
+		width: 100%;
+	}
+}
+.form-lead-ucms {
+	font: normal 24px/28px "PT Sans", Arial, sans-serif;
+	color: #404040;
+	background: #fff;
+	padding: 0;
+	margin: 25px 0;
+	width: 100%;		
+}
+
+.form-lead-ucms-inner {
+	padding: 18px 32px 17px;
+	border: 4px #a67532 solid;
+}
+
+.form-lead-ucms-text {
+	margin: 0 0 18px;
+}
+
+.form-lead-ucms-text span {
+	color: #a67532;
+}
+
+.form-lead-ucms-text .font20 {
+	font-size: 20px!important;
+}
+
+.form-lead-ucms-text.font30 {
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.form-lead-ucms-logo {
+	float: right;
+	margin: 23px 0 27px 25px;
+}
+
+.form-lead-ucms button.lead-button {
+	font: bold 20px/22px "PT Sans", Arial, sans-serif;
+	color: #fff!important;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0!important;
+	padding: 0!important;
+	background: #a67532!important;	
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+	outline: none;
+}
+
+.form-lead-ucms button.lead-button:hover {
+	background: #0097a4!important;
+}
+
+.form-lead-ucms button.lead-button:active {
+	background: #007e8a!important;
+}
+
+.form-lead-ucms .form-lead-inp {
+	color: #404040!important;
+	background: #fff;
+	width: 99%;
+	height: 40px;
+	border: 4px #bfbfbf solid!important;
+	font: bold 18px/44px "PT Sans", Arial, sans-serif!important;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	padding: 0!important;
+	margin: 0 0 10px!important;
+	outline: none!important;
+}
+
+.form-lead-ucms .form-lead-inp:hover {
+	border: 4px #404040 solid!important;
+}
+
+.form-lead-ucms .form-lead-inp:focus {
+	border: 4px #a67532 solid!important;
+}
+
+.form-lead-ucms .text-upper {
+	text-transform: uppercase;
+}
+
+.form-lead-ucms ::-webkit-input-placeholder {
+    color: #c0c0c0;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-ucms :-moz-placeholder {
+    color: #c0c0c0;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-ucms ::-moz-placeholder {
+    color: #c0c0c0;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-ucms :-ms-input-placeholder {
+    color: #c0c0c0;
+    font: bold 18px/46px "PT Sans", Arial, sans-serif!important;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.form-lead-ucms [placeholder]:hover::-webkit-input-placeholder {
+    color: #404040;
+}
+
+.form-lead-ucms [placeholder]:hover:-moz-placeholder {
+    color: #404040;
+}
+
+.form-lead-ucms [placeholder]:hover::-moz-placeholder {
+    color: #404040;
+}
+
+.form-lead-ucms [placeholder]:hover:-ms-input-placeholder {
+    color: #404040;
+}
+
+.form-lead-ucms [placeholder]:focus::-webkit-input-placeholder {
+    color: #404040;
+}
+
+.form-lead-ucms [placeholder]:focus:-moz-placeholder {
+    color: #404040;
+}
+
+.form-lead-ucms [placeholder]:focus::-moz-placeholder {
+    color: #404040;
+}
+
+.form-lead-ucms [placeholder]:focus:-ms-input-placeholder {
+    color: #404040;
+}
+
+.form-lead-ucms .lead-message {
+	display: none;
+	font: normal 20px/22px "PT Sans", Arial, sans-serif;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 19px 0;
+	min-height: 22px;
+	background: #007e8a;
+	color: #fff;
+	clear: both;
+}
+.frame {width: 100%!important; padding: 0!important;}
+.commercial-links-list {display: none;}
+.informers-wrapper {margin: 0; padding: 0 2%; width: 96%;}
+.fullBanner {display: none;}
+.bannerContent{min-height:50px}
+.page .content .secondary {margin-left: -24%;}
+.page .content .primary-wide {margin: 0; float: left;}
+.single-article article .newfont {font: 15px/22px Georgia, serif;}
+@media only screen 
+and (min-width: 991px)
+and (max-width: 1240px) {
+	.page .content .primary-wide {
+		width: 69%!important;
+	}
+
+	.page .content .secondary {
+		width: 30%!important;
+		margin-left: -30%!important;
+	}
+}
+.to_top .to_top_panel .label {display:none;}
+.to_top.under .to_top_panel .label {display:block;}
+.to_top {width: 27px}
+.it-lenta-docs .like-block {display: none;}
+
+.col2-wrap .stycky-block {
+    padding-top: 0!important;
+}
+.taxcom-br {
+    font: normal 15px/21px "Open Sans", Arial, sans-serif;
+    color: #000;
+    word-spacing: normal;
+}
+.taxcom-br-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.taxcom-br-logo {
+    margin: 20px 0 45px;
+}
+.taxcom-br-title {
+    font: normal 52px/68px "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    margin: 0 0 42px;
+}
+.taxcom-br-subtitle {
+    font: normal 18px/28px "Open Sans", Arial, sans-serif;
+}
+
+.taxcom-br-price{
+    font: normal 27px/28px "Open Sans", Arial, sans-serif;
+    margin: 0 0 18px;
+}
+.taxcom-br-services {
+    zoom: 1;
+    word-spacing: -0.4em;
+    margin: 71px auto 0;
+    max-width: 960px;
+    /*padding-left: 3%;
+    padding-right: 3%;*/
+}
+.taxcom-br-service-item {
+    /*width: 210px;
+    margin: 0 30px 30px 0;*/
+    width: 45%;
+    margin: 0 5% 30px 0;
+    padding: 0;
+    display: -moz-inline-box;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    word-spacing: normal;
+    vertical-align: top;
+    position: relative;
+}
+.taxcom-br-services-type2 .taxcom-br-service-item {
+    width: 280px;
+    margin: 0 20px 30px 0;
+}
+.taxcom-br-service-inner {
+    padding: 78px 0 0;
+    display: block;
+}
+.taxcom-br-service-item a {
+    display: block;
+    padding: 0 0 75px;
+    text-decoration: none;
+    -webkit-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+.taxcom-br-service-item a:hover {
+    color: #000;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.taxcom-br-service-item a:hover .taxcom-br-service-title {
+    color: #0072bc;
+}
+#taxcom-br-service-item-01:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 39px;
+    height: 58px;
+    background: url(/html5/i/brand/taxcom/sprite1.png) 0 0 no-repeat;
+}
+#taxcom-br-service-item-02:before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 0;
+    width: 56px;
+    height: 40px;
+    background: url(/html5/i/brand/taxcom/sprite1.png) 0 -59px no-repeat;
+}
+#taxcom-br-service-item-03:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 57px;
+    background: url(/html5/i/brand/taxcom/sprite1.png) 0 -99px no-repeat;
+}
+#taxcom-br-service-item-04:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite1.png) 0 -156px no-repeat;
+}
+#taxcom-br-service-item-05, #taxcom-br-service-item-06, #taxcom-br-service-item-07, #taxcom-br-service-item-08 {
+    padding: 0 0 39px!important;
+}
+#taxcom-br-service-item-05:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 49px;
+    height: 61px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -4px 0 no-repeat;
+}
+#taxcom-br-service-item-06:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 61px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -58px 0 no-repeat;
+}
+#taxcom-br-service-item-07:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 47px;
+    height: 61px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -114px 0 no-repeat;
+}
+#taxcom-br-service-item-08:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 61px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -167px 0 no-repeat;
+}
+#taxcom-br-service-item-09, #taxcom-br-service-item-11 {
+    width: 200px;
+}
+#taxcom-br-service-item-10 {
+    width: 260px;
+}
+#taxcom-br-service-item-09:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite4.png) 0 0 no-repeat;
+}
+#taxcom-br-service-item-10:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite4.png) 0 -60px no-repeat;
+}
+#taxcom-br-service-item-11:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite4.png) 0 -120px no-repeat;
+}
+#taxcom-br-service-item-12:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) 0 -66px no-repeat;
+}
+#taxcom-br-service-item-13:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -62px -66px no-repeat;
+}
+#taxcom-br-service-item-14:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -126px -66px no-repeat;
+}
+#taxcom-br-service-item-15:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -189px -66px no-repeat;
+}
+#taxcom-br-service-item-16:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) 0 -131px no-repeat;
+}
+#taxcom-br-service-item-17:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -64px -131px no-repeat;
+}
+#taxcom-br-service-item-18:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -128px -131px no-repeat;
+}
+#taxcom-br-service-item-19:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -190px -131px no-repeat;
+}
+#taxcom-br-service-item-20:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) 0 -195px no-repeat;
+}
+#taxcom-br-service-item-21:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/html5/i/brand/taxcom/sprite5.png) -64px -195px no-repeat;
+}
+.taxcom-br-service-title {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: 0 0 5px;
+}
+.taxcom-br-service-item .taxcom-br-service-link {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 28px;
+    height: 28px;
+    background: url(/html5/i/brand/taxcom/sprite2.png) 0 0 no-repeat;
+    -webkit-transition: bottom .4s ease-in-out;
+    transition: bottom .4s ease-in-out;
+}
+.taxcom-br-service-item a:hover .taxcom-br-service-link {
+    background-position: 0 -28px;
+    bottom: 0;
+    -webkit-transition: bottom .2s ease-in-out;
+    transition: bottom .2s ease-in-out;
+}
+.taxcom-br-dossier {
+    background: #4652b1;
+    margin: 100px 0 0;
+    min-height: 250px;
+    padding: 50px 3%;
+}
+.taxcom-br-dossier-inner {
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    display: table;
+    zoom: 1;
+}
+.taxcom-br-dossier .taxcom-br-title {
+    color: #fff;
+    margin: 0 0 7px;
+}
+.taxcom-br-dossier .taxcom-br-subtitle {
+    color: #fff;
+    margin: 0;
+}
+.taxcom-br-dossier-img {
+    position: relative;
+    max-width: 100%;
+}
+.taxcom-br-services2 {
+    zoom: 1;
+    word-spacing: -0.4em;
+    margin: 0;
+    padding: 0 3%;
+    text-align: center;
+}
+.taxcom-br-services2 li {
+    width: 300px;
+    margin: 0 20px 12px 0;
+    /*width: 45%;
+    margin: 0 5% 12px 0;*/
+    text-align: left;
+    padding: 0;
+    display: -moz-inline-box;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    word-spacing: normal;
+    vertical-align: top;
+    position: relative;
+    border: 1px #c6cfd6 solid;
+    border-radius: 2px;
+    behavior: url(/html5/css/PIE.htc);
+}
+.taxcom-br-services2 li div {
+    padding: 17px 18px 21px 22px;
+}
+.taxcom-br-more {
+    font-size: 14px;
+    line-height: 44px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff!important;
+    display: block;
+    margin: 27px 0;
+    background: #70cc1e;
+    width: 197px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    behavior: url(/html5/css/PIE.htc);
+}
+.taxcom-br-more:hover {
+    background: #77d721;
+}
+.taxcom-br-converter {
+    background: #f3a01e;
+    margin: 100px 0 0;
+    min-height: 250px;
+    padding: 50px 3%;
+}
+.taxcom-br-converter-inner {
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    display: table;
+    zoom: 1;
+}
+.taxcom-br-converter .taxcom-br-title {
+    margin: 0 0 7px;
+}
+
+.taxcom-br-converter-img {
+    position: relative;
+    max-width: 100%;
+}
+.taxcom-br-note {
+    background: #eff4f6;
+    max-width: 690px;
+    margin: 39px auto 12px;
+    padding: 23px 40px 27px;
+}
+.taxcom-br-note a {
+    color: #0072bc!important;
+    text-decoration: underline!important;
+}
+.taxcom-br-note a:hover {
+    color: #0072bc!important;
+    text-decoration: none!important;
+}
+.taxcom-br-note .taxcom-br-more, .taxcom-br-note .taxcom-br-more:hover {
+    color: #fff!important;
+    text-decoration: none!important;
+}
+.taxcom-br-note .taxcom-br-more {
+    background: #0072bc;
+    margin-top: 38px;
+    margin-bottom: 13px;
+}
+.taxcom-br-note .taxcom-br-more:hover {
+    background: #0e81cc;
+}
+.taxcom-br-sverre {
+    background: #5f3bb1;
+    margin: 100px 0 0;
+    min-height: 250px;
+    padding: 50px 3%;
+}
+.taxcom-br-sverre-inner {
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    display: table;
+    zoom: 1;
+}
+.taxcom-br-sverre .taxcom-br-title {
+    color: #fff;
+    margin: 0 0 7px;
+}
+.taxcom-br-sverre .taxcom-br-subtitle {
+    color: #fff;
+}
+.taxcom-br-sverre-img {
+    position: relative;
+    max-width: 100%;
+}
+
+.taxcom-br-card {
+    background: #ffb516;
+    margin: 88px 0 0;
+    min-height: 250px;
+    padding: 50px 3%;
+}
+.taxcom-br-card-inner {
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    display: table;
+    zoom: 1;
+}
+.taxcom-br-card .taxcom-br-title {
+    margin: 0 0 7px;
+}
+
+.taxcom-br-card-img {
+    position: relative;
+    max-width: 100%;
+}
+
+.taxcom-br-block-text {
+    padding-right: 390px;
+}
+
+.taxcom-br-block-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 364px;
+}
+
+.taxcom-br-other {
+    margin-bottom: 30px; 
+}
+
+.taxcom-br-other .taxcom-br-title {
+    font-size: 31px;
+    line-height: 33px;
+    margin: 10px 0 16px;
+}
+
+.taxcom-br-other .taxcom-br-subtitle {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.taxcom-br-other .taxcom-br-note .taxcom-br-more {
+    margin-top: 27px;
+}
+@media only screen and (max-width: 1440px) {
+    .taxcom-br-container {
+        max-width: 90%;
+    }
+    .taxcom-br-service-item {
+        width: 45%!important;
+        margin: 0 5% 30px 0;
+    }
+    .taxcom-br-services2 li {
+        width: 43%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 1480px) {
+    .taxcom-br-title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .taxcom-br-dossier-img, .taxcom-br-converter-img, .taxcom-br-sverre-img, .taxcom-br-card-img {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+    .taxcom-br-block-img {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .taxcom-br-block-text {
+        padding-right: 0;
+    }
+    .taxcom-br-dossier-inner, .taxcom-br-converter-inner, .taxcom-br-converter-inner, .taxcom-br-sverre-inner, .taxcom-br-note {
+        text-align: center;
+    }
+    .taxcom-br-more {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .taxcom-br-services2 li {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .taxcom-br-service-item {
+        width: 100%!important;
+        margin: 0 0 30px!important;
+    }
+    .taxcom-br-dossier-img, .taxcom-br-converter-img, .taxcom-br-sverre-img, .taxcom-br-card-img {
+        max-width: 220px;
+    }
+}
+
+.col2-wrap .banner-block {
+    *max-width: 100%;
+}
+
+.banner-taxcom-wrapper {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left: -150px;
+    z-index: 12;
+    width: 301px;
+    height: 306px;
+}
+.banner-taxcom-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 14px;
+    height: 14px;
+}
+/*#darkbg {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+* html #darkbg {
+    position: absolute;
+    width: expression( document.body.scrollWidth + "px");
+    height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + "px");
+}*/

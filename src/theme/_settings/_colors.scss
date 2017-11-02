@@ -1,0 +1,51 @@
+// Color Palettes
+
+$palette: (
+  base: (
+    header: #DDF4E5,
+    primary: rgba(37,197,132,.8),
+    secondary: #BED3C3,
+    accent: #E1E3E4,
+    fg: #191919,
+    bg: #F6F2F2,
+    bg-shade: rgba(#fac8c8, .4)
+  ),
+
+  interact: (
+    action: #5c87fc,
+    error: #EA4E5B,
+    success: #9ace7d,
+    warning: yellow,
+    highlight: lighten(#DDF4E5, 5%)
+  ),
+
+  notice: (
+    base: #ffffff,
+    accent: #EA4E5B
+  ),
+
+  // Neutral colors (borders, inactive elements, etc)
+  neutrals: (
+    x-dark: rgb(15, 15, 15),
+    dark: rgb(41, 41, 41),
+    mid-dark: darken(#c1c2c7, 10%),
+    base: #c1c2c7,
+    mid-light: darken(#E5E7EA, 7%),
+    light: #E5E7EA,
+    x-light: #ffffff,
+  ),
+
+  //advert's block
+  ads: (
+    background: #FEFCED,
+    text: #262525,
+    link: #707c9e
+  ),
+
+  // modal windows
+  modals: (
+    text: #AEA3AC,
+    shadow: #e7d4d4,
+    fg: #EBC1C5
+  )
+);

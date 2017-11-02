@@ -1,0 +1,22 @@
+// Boilerplate variables and mixins
+@import "_lib/union";
+@import "_settings/settings";
+
+// Vendors
+@import "~bourbon/app/assets/stylesheets/bourbon";
+$modular-scale-ratio: $major-third;
+$modular-scale-base: 1em;
+
+//Nicolas Gallagher Normalize (sass branch)
+@import "~normalize-scss/sass/normalize";
+@include normalize();
+
+// Legacy stylesheet
+@import "_backup/klerk";
+@import "_backup/responsive";
+
+// Major stylesheet 
+@import "_base/union";
+@import "_components/union"; 
+@import "_blocks/union";
+@import "_layout/union";

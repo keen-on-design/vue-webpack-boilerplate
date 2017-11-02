@@ -1,0 +1,8 @@
+.header__icon {
+  fill: darken(_palette(base, accent), 25%);
+  transition: $base-transition;
+
+  &:hover {
+    fill: darken(_palette(base, accent), 45%);
+  }
+}

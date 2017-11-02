@@ -1,0 +1,34 @@
+.spoiler-input {
+  display: none;
+
+  & + label {
+    cursor: pointer;
+  }
+
+  &:checked {
+    & ~ .spoiler {
+      display: block;
+    }
+  }
+}
+
+.spoiler-input--deadlock {
+  @extend .spoiler-input;
+  &:checked {
+    & + label {
+      display: none;
+    }
+  }
+}
+
+.spoiler {
+  display: none;
+}
+
+.spoiler-input--deadlock:checked~.spoiler, .spoiler-input:checked~.spoiler {
+  display: block;
+  /*margin-top: - $base-line-height / 2;*/
+}
+.spoiler-input--deadlock:checked~.spoiler-label:before, .spoiler-input:checked~.spoiler-label:before {
+    display: none;
+}
