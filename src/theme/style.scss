@@ -1,11 +1,10 @@
-// Boilerplate variables and mixins
-@import "_lib/union";
-@import "_settings/settings";
-
-//Nicolas Gallagher Normalize (sass branch)
+//Nicolas Gallagher Normalize
 @import "~normalize-scss/sass/normalize";
 @include normalize();
 
+// Boilerplate core 
+@import "core";
+
 // Major stylesheet 
-@import "_base/union";
-@import "_components/union";
+@import "base/union";
+@import "components/union";

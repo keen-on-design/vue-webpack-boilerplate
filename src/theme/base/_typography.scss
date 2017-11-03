@@ -1,0 +1,54 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body, input, select, textarea {
+	color: _palette(base, foreground);
+	font-family: _font-style(base, family);
+	font-weight: _font-style(base, weight);
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+}
+
+// Hyperlinks
+a {
+	color: _palette(base, link);
+	text-decoration: none;
+
+	&:hover {
+		color: darken(_palette(base, link), 10%);
+	}
+}
+
+// Subscript & Superscript
+sub {
+	font-size: 0.8em;
+	position: relative;
+	top: 0.5em;
+}
+
+sup {
+	font-size: 0.8em;
+	position: relative;
+	top: -0.5em;
+}
+
+h1 {
+	font-family: _font-style(heading, family);
+	font-weight: _font-style(heading, weight);
+	margin: 0 0 $base-line-height / 2 0;
+}
+
+h2,h3,h4,h5 {
+	font-family: _font-style(subheading, family);
+	font-weight: _font-style(subheading, weight);
+}
+
+p {
+	margin: ($base-line-height / 2) 0;
+}
+
+b, strong {
+	font-weight: _font-style(base, weight-bold);
+}
