@@ -1,6 +1,6 @@
-# keen
+# Vue 2 Webpack boilerplate
 
-> keen agency website
+> This boilerplate is based on vue webpack template and ads file structure enchantments and a simple sass boilerplate
 
 ## Build Setup
 
