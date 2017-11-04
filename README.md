@@ -1,6 +1,6 @@
 # Vue 2 Webpack boilerplate
 
-> This boilerplate is based on vue webpack template and ads file structure enchantments and a simple sass boilerplate
+> This boilerplate is based on vue webpack template. It ads file structure enchantments and a simple sass boilerplate
 
 ## Build Setup
 
