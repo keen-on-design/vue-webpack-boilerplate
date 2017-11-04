@@ -1,6 +1,5 @@
 <template>
-  <div id="app" class="container">
-    <img src="./assets/logo.png">
+  <div id="app">
     <router-view/>
   </div>
 </template>
@@ -13,4 +12,8 @@ export default {
 
 <style lang='scss'>
   @import './theme/style';
+
+  #app {
+    margin-top: $base-line-height * 4;
+  }
 </style>
