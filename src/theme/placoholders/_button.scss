@@ -1,0 +1,15 @@
+%button {
+  appearance: none;
+  color: lighten(_palette(interact, action), 70%);
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  border-radius: $base-border-radius;
+  border: none;
+  background-color: _palette(interact, action);
+  outline: none!important;
+  transition: all 0.2s ease;
+}
